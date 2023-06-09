@@ -21,6 +21,7 @@ namespace WinFormsApp1
         {
             Juego ventanaJuego = new Juego();
             ventanaJuego.Show();
+            //this.Hide();
         }
     }
 }

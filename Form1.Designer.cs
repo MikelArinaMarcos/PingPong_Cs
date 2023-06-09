@@ -38,9 +38,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(2, 5);
+            pictureBox1.Location = new Point(-22, -26);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(911, 560);
+            pictureBox1.Size = new Size(938, 598);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -77,7 +77,9 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Menu Principal";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
