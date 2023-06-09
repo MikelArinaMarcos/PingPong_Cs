@@ -38,10 +38,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(2, 4);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(2, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(797, 420);
+            pictureBox1.Size = new Size(911, 560);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -49,9 +48,10 @@
             // button1
             // 
             button1.BackColor = Color.Gray;
-            button1.Location = new Point(583, 335);
+            button1.Location = new Point(666, 447);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(146, 50);
+            button1.Size = new Size(167, 67);
             button1.TabIndex = 1;
             button1.Text = "SALIR";
             button1.UseVisualStyleBackColor = false;
@@ -60,22 +60,23 @@
             // button2
             // 
             button2.BackColor = Color.Gray;
-            button2.Location = new Point(583, 279);
+            button2.Location = new Point(666, 372);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(146, 50);
+            button2.Size = new Size(167, 67);
             button2.TabIndex = 2;
             button2.Text = "JUGAR";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(802, 427);
+            ClientSize = new Size(917, 569);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Menu Principal";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

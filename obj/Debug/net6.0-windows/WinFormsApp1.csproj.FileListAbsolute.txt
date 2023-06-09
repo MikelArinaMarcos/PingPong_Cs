@@ -16,3 +16,4 @@ E:\Mikel\Proyectos\juego_pong\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFo
 E:\Mikel\Proyectos\juego_pong\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
 E:\Mikel\Proyectos\juego_pong\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
 E:\Mikel\Proyectos\juego_pong\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
+E:\Mikel\Proyectos\juego_pong\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Juego.resources
